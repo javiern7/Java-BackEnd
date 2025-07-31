@@ -1,0 +1,68 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# General ignores for various operating systems and development environments
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.localized
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and temporary files
+build/
+dist/
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Node.js specific ignores
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyd
+.Python
+venv/
+env/
+
+# Java specific ignores
+*.class
+bin/
+out/
+
+# C/C++ specific ignores
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.pdb
+
+# Database files
+*.sqlite
+*.db
+*.sqlite3
+
+# Test coverage and CI/CD artifacts
+coverage/
+.tox/
+.pytest_cache/

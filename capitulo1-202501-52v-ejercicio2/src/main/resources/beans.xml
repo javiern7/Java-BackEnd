@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="emailService" class="pe.edu.cibertec.service.impl.EmailService"
+          init-method="init" destroy-method="destroy">
+    </bean>
+
+    <bean id="smsService" class="pe.edu.cibertec.service.impl.SMSService"
+            init-method="init" destroy-method="destroy">
+    </bean>
+
+    <!--<bean id="cliente" class="pe.edu.cibertec.bean.Cliente">
+        <property name="mensajeService" ref="emailService"/>
+    </bean>-->
+
+    <bean id="cliente" class="pe.edu.cibertec.bean.Cliente">
+        <!--<constructor-arg ref="smsService"/>-->
+
+        <property name="mensajeService" ref="smsService"/>
+    </bean>
+</beans>
