@@ -1,6 +1,4 @@
-/capitulo1-202501-52v-ejercicio1/target/
-/capitulo1/target/
-/capitulo1-202501-52v-ejercicio2/target/
-/laboratorio2/target/
-.idea
-.mvn
+**/target/
+**/bin/
+**/*.log
+**/*.class
