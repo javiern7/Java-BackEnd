@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-                            http://www.springframework.org/schema/beans/spring-beans.xsd">
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd"
+        default-init-method="init" default-destroy-method="destroy">
 
-    <bean id="emailService" class="pe.edu.cibertec.service.impl.EmailService"
-          init-method="init" destroy-method="destroy">
+    <context:component-scan base-package="pe.edu.cibertec"/>
+
+ <!--   <bean id="emailService" class="pe.edu.cibertec.service.impl.EmailService"
+            lazy-init="true">
     </bean>
 
     <bean id="smsService" class="pe.edu.cibertec.service.impl.SMSService"
-            init-method="init" destroy-method="destroy">
-    </bean>
+            lazy-init="true">
+    </bean>-->
 
     <!--<bean id="cliente" class="pe.edu.cibertec.bean.Cliente">
         <property name="mensajeService" ref="emailService"/>
     </bean>-->
 
-    <bean id="cliente" class="pe.edu.cibertec.bean.Cliente">
-        <!--<constructor-arg ref="smsService"/>-->
+    <!--<bean id="cliente" class="pe.edu.cibertec.bean.Cliente">
+        <constructor-arg ref="smsService"/>
 
         <property name="mensajeService" ref="smsService"/>
-    </bean>
+    </bean>-->
 </beans>

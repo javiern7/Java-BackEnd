@@ -10,8 +10,8 @@ import pe.edu.cibertec.configuration.AppConfig;
 public class Principal {
     public static void main(String[] args) {
 
-       ApplicationContext contexto = new ClassPathXmlApplicationContext("beans.xml");
-        //ApplicationContext contexto = new AnnotationConfigApplicationContext(AppConfig.class);
+       //ApplicationContext contexto = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext contexto = new AnnotationConfigApplicationContext(AppConfig.class);
         Cliente cliente = contexto.getBean("cliente",Cliente.class);
         cliente.procesarMensaje("Hola! Utilizando Interfaces para los ejemplos");
 

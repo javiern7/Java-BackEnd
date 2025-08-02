@@ -10,7 +10,13 @@
         <option value="$PROJECT_DIR$/laboratorio2/pom.xml" />
         <option value="$PROJECT_DIR$/laboratorio1/pom.xml" />
         <option value="$PROJECT_DIR$/laboratorio3/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionEmpleados/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/laboratorio3/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
