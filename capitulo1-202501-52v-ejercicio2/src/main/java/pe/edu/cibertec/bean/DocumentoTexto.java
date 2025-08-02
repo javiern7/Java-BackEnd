@@ -1,4 +1,4 @@
-package pe.edu.cibertec.beans;
+package pe.edu.cibertec.bean;
 
 import org.springframework.stereotype.Controller;
 
@@ -18,9 +18,10 @@ public class DocumentoTexto implements Imprimible {
     }
 
     @Override
-    public String imprimir() {
+    public String imprimir(){
         String abc = null;
         abc.getBytes();
         return "Imprimiendo desde un archivo de texto";
     }
+
 }

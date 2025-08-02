@@ -1,7 +1,9 @@
 package pe.edu.cibertec.service.impl;
 
+import org.springframework.stereotype.Controller;
 import pe.edu.cibertec.service.MensajeService;
 
+@Controller
 public class SMSService implements MensajeService {
 
     public void init(){

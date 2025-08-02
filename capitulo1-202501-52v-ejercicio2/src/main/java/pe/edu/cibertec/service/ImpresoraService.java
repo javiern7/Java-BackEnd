@@ -3,7 +3,8 @@ package pe.edu.cibertec.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import pe.edu.cibertec.beans.Imprimible;
+import pe.edu.cibertec.bean.Imprimible;
+
 
 @Service("impresoraServiceBean")
 public class ImpresoraService {

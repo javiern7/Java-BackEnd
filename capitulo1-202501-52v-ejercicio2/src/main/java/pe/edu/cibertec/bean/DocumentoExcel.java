@@ -1,6 +1,7 @@
-package pe.edu.cibertec.beans;
+package pe.edu.cibertec.bean;
 
 import org.springframework.stereotype.Repository;
+
 
 @Repository
 public class DocumentoExcel implements Imprimible {

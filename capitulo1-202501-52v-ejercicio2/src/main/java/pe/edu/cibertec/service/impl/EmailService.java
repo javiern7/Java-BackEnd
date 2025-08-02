@@ -1,7 +1,9 @@
 package pe.edu.cibertec.service.impl;
 
+import org.springframework.stereotype.Repository;
 import pe.edu.cibertec.service.MensajeService;
 
+@Repository
 public class EmailService implements MensajeService {
 
     public void init(){
