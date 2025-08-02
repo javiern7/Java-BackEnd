@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="capitulo1-202501-52v-ejercicio1" />
+        <module name="capitulo1-202501-52V-ejercicio5" />
         <module name="capitulo1-202501-52v-ejercicio2" />
         <module name="laboratorio1" />
         <module name="gestion-empleados" />

@@ -1,4 +1,4 @@
-package pe.edu.cibertec.model;
+package pe.edu.cibertec.entity;
 
 public class Employee {
 

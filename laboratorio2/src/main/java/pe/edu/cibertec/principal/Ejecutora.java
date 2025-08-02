@@ -12,10 +12,7 @@ import pe.edu.cibertec.service.ImpresoraService;
 public class Ejecutora {
     public static void main(String[] args) {
 
-        //ApplicationContext contexto = new ClassPathXmlApplicationContext("beans.xml");
-        ApplicationContext contexto = new AnnotationConfigApplicationContext(AppConfig.class);
-        ImpresoraService impresoraService = (ImpresoraService) contexto.getBean("impresoraServiceBean");
-        impresoraService.imprimirDocumento();
+        ApplicationContext contexto = new ClassPathXmlApplicationContext("beans.xml");
 
         HolaMundo hm = (HolaMundo)contexto.getBean("holaMundoBean");
         hm.saludar();
@@ -24,6 +21,11 @@ public class Ejecutora {
         System.out.println("Compara posiciones de memoria = " + hm +" - "+ hm2);
         hm2.setNombre("Segundo Nombre");
         System.out.println("Valor del nombre primer bean " + hm.getNombre());
+
+        //ApplicationContext contexto = new AnnotationConfigApplicationContext(AppConfig.class);
+        ImpresoraService impresoraService = (ImpresoraService) contexto.getBean("impresoraServiceBean");
+        impresoraService.imprimirDocumento();
+
 
         ((ConfigurableApplicationContext) contexto).close();
     }

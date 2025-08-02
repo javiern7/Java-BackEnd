@@ -1,0 +1,3 @@
+pe\edu\cibertec\capitulo1\Ejecutora.class
+pe\edu\cibertec\capitulo1\aspects\LogAOP.class
+pe\edu\cibertec\capitulo1\service\ClienteService.class
