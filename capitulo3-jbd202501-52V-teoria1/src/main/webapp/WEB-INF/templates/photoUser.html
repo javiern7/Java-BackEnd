@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Photo User</title>
+    </head>
+    <body>
+    <h1>Photo User</h1>
+    <h2 th:unless="${usuario.foto}" th:text="'Usuario sin foto'"></h2>
+    <img th:src="@{'data:image/jpeg;base64,'+${foto64}}" th:if="${usuario.foto}" />
+    <br/>
+    <form method="post" th:action="@{photoSave.cibertec}" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Seleccione la foto:</td>
+                <td><input type="file" name="archivo"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Load Photo"></td>
+            </tr>
+        </table>
+        <input type="hidden" name="usuario" th:value="${usuario.user}"/>
+
+    </form>
+
+
+    </body>
+</html>

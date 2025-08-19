@@ -6,16 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="capitulo1-202501-52v-ejercicio1" />
-        <module name="capitulo1-202501-52V-ejercicio5" />
-        <module name="capitulo1-202501-52v-ejercicio2" />
-        <module name="laboratorio1" />
-        <module name="gestion-empleados" />
-        <module name="laboratorio2" />
+        <module name="laboratorioCapitulo2-Anotacion" />
+        <module name="labotorioCapitulo2" />
+        <module name="capitulo2-jbd202501-52V-teoria_tl" />
+        <module name="capitulo2-jbd202501-52V-teoria1" />
+        <module name="examen-spring-mvc" />
+        <module name="lab1-cap3-jpa" />
+        <module name="capitulo2-jbd202501-52V-teoria-Anotaciones" />
+        <module name="laboratorioCapitulo2Thl" />
+        <module name="capitulo3-jbd202501-52V-teoria1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="capitulo1-202501-52v-ejercicio1" target="17" />
+      <module name="capitulo1-202501-52v-ejercicio2" target="17" />
+      <module name="capitulo1-202501-52V-ejercicio5" target="17" />
+      <module name="examenEmpleados" target="17" />
+      <module name="gestion-empleados" target="17" />
+      <module name="laboratorio1" target="17" />
+      <module name="laboratorio2" target="17" />
       <module name="laboratorio3" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="capitulo2-jbd202501-52V-teoria-Anotaciones" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\capitulo2-jbd202501-52V-teoria-Anotaciones\target/endorsed" />
+      <module name="capitulo2-jbd202501-52V-teoria1" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\capitulo2-jbd202501-52V-teoria1\target/endorsed" />
+      <module name="capitulo2-jbd202501-52V-teoria_tl" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\capitulo2-jbd202501-52V-teoria_tl\target/endorsed" />
+      <module name="capitulo3-jbd202501-52V-teoria1" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\capitulo3-jbd202501-52V-teoria1\target/endorsed" />
+      <module name="examen-spring-mvc" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\examen-spring-mvc\target/endorsed" />
+      <module name="lab1-cap3-jpa" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\lab1-cap3-jpa\target/endorsed" />
+      <module name="laboratorioCapitulo2-Anotacion" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\laboratorioCapitulo2-Anotacion\target/endorsed" />
+      <module name="laboratorioCapitulo2Thl" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\laboratorioCapitulo2Thl\target/endorsed" />
+      <module name="labotorioCapitulo2" options="-endorseddirs D:\PRIVADO\CIBERTEC\WS_JAVA_BACKEND\Java-BackEnd\labotorioCapitulo2\target/endorsed" />
+    </option>
   </component>
 </project>

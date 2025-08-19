@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/capitulo2-jbd202501-52V-teoria1/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/capitulo2-jbd202501-52V-teoria1/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/capitulo2-jbd202501-52V-teoria1/target/capitulo2-jbd202501-52V-teoria1-1.0-SNAPSHOT/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/capitulo2-jbd202501-52V-teoria1/target/capitulo2-jbd202501-52V-teoria1-1.0-SNAPSHOT" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/capitulo1-202501-52V-ejercicio5" />
+      <excludeFolder url="file://$MODULE_DIR$/capitulo1-202501-52v-ejercicio1" />
+      <excludeFolder url="file://$MODULE_DIR$/capitulo1-202501-52v-ejercicio2" />
+      <excludeFolder url="file://$MODULE_DIR$/examenEmpleados" />
+      <excludeFolder url="file://$MODULE_DIR$/gestionEmpleados" />
+      <excludeFolder url="file://$MODULE_DIR$/laboratorio1" />
+      <excludeFolder url="file://$MODULE_DIR$/laboratorio2" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

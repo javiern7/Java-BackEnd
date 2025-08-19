@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+    <h1>Mantenimiento de Usuarios</h1>
+    </br>
+
+        <div class="table-responsive">
+            <table class="table table-responsive table-sm table-dark table-striped table-bordered table-hover">
+                <thead>
+                <tr class="info">
+                    <th>User</th>
+                    <th>Password</th>
+                    <th>Full Name</th>
+                    <th>Photo</th>
+                    <th>Eliminar</th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+                    <tr th:each="usuario : ${lista}" >
+                        <td th:text="${usuario.user}"></td>
+                        <td th:text="${usuario.password}"></td>
+                        <td th:text="${usuario.fullName}"></td>
+                        <span th:if="${usuario.foto64 == null}" th:text="|Sin foto|" th:remove="tag"> </span>
+                        <img th:src="@'data:image/jpeg;base64,'+${usuario.foto64}" th:if="${usuario.foto64!=null}"
+                                height="25" width="25">
+                        <td><a th:href="@{'userDelete.cibertec?user='+ ${usuario.user}}">Eliminar</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a th:href="@{'userNew.cibertec'}" class="btn btn-primary btn-lg active">Crear User</a>
+        <br/>
+        <h3 th:text="'Se han creado ' + ${contadorUserSave} + 'usuarios en esta session'"> </h3>
+
+    </body>
+</html>

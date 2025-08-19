@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>New User</title>
+        <style type="text/css">
+            .formFieldError{background-color: #FFC;}
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row d-flex justify-content-center mx-auto">
+
+            <h1>User Data</h1>
+            <div class="col-md-6 col-xs-12 div-style">
+
+                <br/>
+                <form th:action="@{userSave.cibertec}" th:object="${usuarioBean}">
+                    <table>
+                        <tr>
+                            <td><label for="user">User:</label></td>
+                            <td><input id="user" th:field="*{user}" class="form-control text-box"/></td>
+                            <td th:if="${#fields.hasErrors('user')}"
+                                th:errorclass="formFieldError" th:errors="*{user}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input id="password" th:field="*{password}" class="form-control text-box"/></td>
+                            <td th:if="${#fields.hasErrors('password')}"
+                                th:errorclass="formFieldError" th:errors="*{password}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fullName">Full Name:</label></td>
+                            <td><input id="fullName" th:field="*{fullName}" class="form-control text-box"/></td>
+                            <td th:if="${#fields.hasErrors('fullName')}"
+                                th:errorclass="formFieldError" th:errors="*{fullName}"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="1">
+                                <input type="submit" value="Insertar" class="btn btn-primary button-submit"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+</html>

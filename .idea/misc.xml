@@ -12,10 +12,27 @@
         <option value="$PROJECT_DIR$/laboratorio3/pom.xml" />
         <option value="$PROJECT_DIR$/gestionEmpleados/pom.xml" />
         <option value="$PROJECT_DIR$/capitulo1-202501-52V-ejercicio5/pom.xml" />
+        <option value="$PROJECT_DIR$/examenEmpleados/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria1/pom.xml" />
+        <option value="$PROJECT_DIR$/labotorioCapitulo2/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria-Anotaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria_tl/pom.xml" />
+        <option value="$PROJECT_DIR$/laboratorioCapitulo2Thl/pom.xml" />
+        <option value="$PROJECT_DIR$/laboratorioCapitulo2-Anotacion/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo3-jbd202501-52V-teoria1/pom.xml" />
+        <option value="$PROJECT_DIR$/examen-spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/lab1-cap3-jpa/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/capitulo1-202501-52V-ejercicio5/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo1-202501-52v-ejercicio1/pom.xml" />
+        <option value="$PROJECT_DIR$/capitulo1-202501-52v-ejercicio2/pom.xml" />
+        <option value="$PROJECT_DIR$/examenEmpleados/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionEmpleados/pom.xml" />
+        <option value="$PROJECT_DIR$/laboratorio1/pom.xml" />
+        <option value="$PROJECT_DIR$/laboratorio2/pom.xml" />
         <option value="$PROJECT_DIR$/laboratorio3/pom.xml" />
       </set>
     </option>

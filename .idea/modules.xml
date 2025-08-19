@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-BackEnd.iml" filepath="$PROJECT_DIR$/.idea/Java-BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria-Anotaciones.iml" filepath="$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria-Anotaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria1/capitulo2-jbd202501-52V-teoria1.iml" filepath="$PROJECT_DIR$/capitulo2-jbd202501-52V-teoria1/capitulo2-jbd202501-52V-teoria1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laboratorioCapitulo2Thl.iml" filepath="$PROJECT_DIR$/laboratorioCapitulo2Thl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labotorioCapitulo2/labotorioCapitulo2.iml" filepath="$PROJECT_DIR$/labotorioCapitulo2/labotorioCapitulo2.iml" />
     </modules>
   </component>
 </project>
